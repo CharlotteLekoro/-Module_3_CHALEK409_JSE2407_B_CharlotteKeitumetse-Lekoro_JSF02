@@ -29,8 +29,8 @@
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/">
             <button class="flex items-center space-x-3 rtl:space-x-reverse">
-              <img src="./public/logo.png" class="h-8" alt="Flowbite Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-light">Emercom</span>
+              <img src="./assets/apple-touch-icon.png" class="h-8" alt="trendy treasures Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-light">Trendy Treasures</span>
             </button>
           </Link>
           <button
