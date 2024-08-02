@@ -77,4 +77,37 @@
       dispatch('productClick', productId);
     }
   </script>
+
+<div class="container mx-auto px-6 py-8">
+    <div class="flex justify-between items-center mb-4">
+      <div>
+        <label for="category" class="text-xl font-semibold mr-2 text-primary-dark">Category:</label>
+        <select value={selectedCategory} on:change={handleCategoryChange} class="border rounded p-2">
+          <option value="">All</option>
+          {#each categories as category}
+            <option value={category}>{category}</option>
+          {/each}
+        </select>
+      </div>
+  
+      <div>
+        <label for="sort" class="text-xl font-semibold mr-2 text-primary-dark">Sort by price:</label>
+        <select value={sortOrder} on:change={handleSortChange} class="border rounded p-2">
+          <option value="">Default</option>
+          <option value="asc">Lowest to Highest</option>
+          <option value="desc">Highest to Lowest</option>
+        </select>
+      </div>
+    </div>
+  
+    <div>
+      <button
+        on:click={handleResetFilters}
+        class="bg-primary-dark text-primary-light font-semibold py-2 px-4 rounded"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+  
   
