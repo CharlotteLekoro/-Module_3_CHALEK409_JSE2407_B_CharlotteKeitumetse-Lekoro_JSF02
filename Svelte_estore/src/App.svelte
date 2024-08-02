@@ -71,3 +71,21 @@
         </div>
       </nav>
     </header>
+
+    <main>
+        <Route path="/">
+          <Home
+            {products}
+            {loading}
+            {selectedCategory}
+            {sortOrder}
+            {filteredProductsList}
+            {categories}
+            {goToProductDetails}
+          />
+        </Route>
+        <Route path="/product/:id" let:params>
+          <ProductDetails productId={params.id} />
+        </Route>
+      </main>
+    </Router>
