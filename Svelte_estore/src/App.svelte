@@ -89,4 +89,12 @@
         </Route>
       </main>
     </Router>
-    
+
+    <style>
+        body {
+          font-family: BDSans-Regular, sans-serif !important;
+        }
+        * {
+          --tw-ring-color: rgba(59, 130, 246, 0.5);
+        }
+      </style>
