@@ -5,3 +5,20 @@
     import ProductDetails from './lib/components/ProductDetails.svelte';
   
     export let url = "";
+    
+    function fetchProducts() {
+    loading = true;
+    fetch("https://fakestoreapi.com/products")
+      .then((response) => response.json())
+      .then((data) => {
+        products = data;
+        filteredProductsList = data;
+        categories = [...new Set(data.map((product) => product.category))];
+        loading = false;
+      });
+  }
+
+  function goToProductDetails(productId) {
+    window.location.href = `/product/${productId}`;
+  }
+</script>
