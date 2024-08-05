@@ -2,13 +2,13 @@
 
 ## Svelte E-Commerce Store
 
-Built using Svelte.js and Tailwind CSS, Emercom is a modern, responsive e-commerce web application built with Svelte. It showcasesa list of products fetched from the Fake Store API, allows users to filter and sort products, and view detailed information about each product.
+Built using Svelte.js and Tailwind CSS, Trendy Treasures is a modern, responsive e-commerce web application built with Svelte. It showcases a list of products fetched from the Fake Store API, allows users to filter and sort products, and view detailed information about each product.
 
 ### Technologies Used
 
-- **Svelte.js:** A modern JavaScript framework for building user interfaces.
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-- **Fake Store API:** A free online REST API that provides fake e-commerce data.
+- HTML
+- CSS
+- Javascript
 
 ### Features
 
@@ -29,14 +29,14 @@ Built using Svelte.js and Tailwind CSS, Emercom is a modern, responsive e-commer
 
 1. **Clone the repository:**
    - Open your terminal and select powershell
-   - git clone https://github.com/OtlotlengMajuja/Module_3_OTLMAJ363_JSE2401_GroupD_Otlotleng-Majuja_JSF02.git
-   - cd svelte e-commerce store
+   - git clone the repo from github
+   
 2. Install dependencies
    - using `npm install`
 
 #### Running the Project
 
-To start the develoopment server, run `npm run dev`
+To start the development server, run `npm run dev`
 
 ### Usage Examples
 
