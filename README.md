@@ -63,3 +63,5 @@ The product details page shows comprehensive information about the selected prod
 - **Category:** The category to which the product belongs.
 - **Price:** The price of the product.
 - **Rating:** The average rating and number of reviews for the product.
+
+C:\Users\Software.Engineer11\Pictures\Screenshots\Screenshot (137).png

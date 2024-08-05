@@ -118,7 +118,7 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     {#each filteredProductsList as product (product.id)}
       <div
-        class="card bg-primary-light shadow rounded-lg border-primary-dark p-4 shadow hover:shadow-lg transition-shadow duration-300 flex flex-col items-center"
+        class="card bg-primary-light shadow rounded-lg border-primary-dark p-6 shadow hover:shadow-lg transition-shadow duration-300 flex flex-col items-center"
         on:click={() => handleProductClick(product.id)}
       >
         <div class="flex justify-center w-full mb-4">
