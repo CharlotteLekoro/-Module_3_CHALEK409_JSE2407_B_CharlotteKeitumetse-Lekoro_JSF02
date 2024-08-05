@@ -9,13 +9,14 @@ module.exports = {
       colors: {
         primary: {
           light: '#fcfcfc',
-          dark: '#000000',
-          medium: '#754999',
-          accent1: '#8c05b5',
-          accent2: '#6e128a',
+          dark: '#121425',
+          medium: '#4f2c2c',
+          accent1: '#8c4433',
+          accent2: '#c95c3b',
         },
       },
     },
   },
   plugins: [],
 }
+
