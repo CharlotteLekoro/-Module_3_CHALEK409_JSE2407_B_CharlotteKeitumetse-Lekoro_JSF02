@@ -65,3 +65,4 @@ The product details page shows comprehensive information about the selected prod
 - **Rating:** The average rating and number of reviews for the product.
 
 C:\Users\Software.Engineer11\Pictures\Screenshots\Screenshot (137).png
+<img src="./public/Screenshot (137).png>
