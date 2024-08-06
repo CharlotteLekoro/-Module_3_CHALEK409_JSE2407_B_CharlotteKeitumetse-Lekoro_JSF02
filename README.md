@@ -47,7 +47,7 @@ The home page displays a list of products with options to filter by category and
 **Filtering Products**
 
 - Select a category from the dropdown to filter products by category.
-- Choose a sort order from the dropdown to sort products by price (ascending or descending).
+- Choose a sort order from the dropdown to sort products by price (high to low and low to high).
 
 **Viewing Product Details**
 
